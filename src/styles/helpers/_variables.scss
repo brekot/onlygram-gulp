@@ -1,19 +1,14 @@
-$grid-breakpoints: (
-    xs: 0,
-    sm: 576px,
-    md: 768px,
-    lg: 992px,
-    xl: 1200px
-);
+:root {
+	--black: #000;
+	--white: #FFF;
 
-$container-max-widths: (
-    sm: 540px,
-    md: 720px,
-    lg: 960px,
-    xl: 1140px
-);
+	--bg-main: #F5FAFF;
+    --bg-panel: #E9F3FF;
 
-$gutter: 30px;
+    --color-main1: #534B9B;
 
-$color-black: #000;
-$color-white: #FFF;
+    --link-color: #3871E0;
+
+    --grey1: #BABABA;
+    --gray2: #807F7F;
+}

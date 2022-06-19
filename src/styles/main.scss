@@ -3,15 +3,14 @@
 
 // Переменные, миксины, функции
 @import "helpers/variables";
-@import "helpers/mixins";
-@import "helpers/functions";
-@import "helpers/grid";
+//@import "helpers/mixins";
+//@import "helpers/functions";
+//@import "helpers/grid";
 
 // CSS-файлы библиотек
 @import "vendor/libs";
 
 // Основное
-@import "base/fonts";
 @import "base/normalize";
 @import "base/general";
 
