@@ -1,0 +1,27 @@
+.btn-one {
+    height: 64px;
+    background-color: var(--tag-color);
+    border-radius: 32px;
+    font-size: 20px;
+    color: var(--white);
+    border: none;
+    box-shadow: none;
+    stroke: var(--white);
+    padding: 0 35px;
+    display: inline-flex;
+    align-items: center;
+    transition: .5s;
+
+    &:hover {
+        background-color: var(--link-color);
+    }
+
+    &__icon {
+        margin: 0 10px 0 0;
+
+        &_plus {
+            height: 19px;
+            width: 19px;
+        }
+    }
+}
