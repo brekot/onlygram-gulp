@@ -1,0 +1,28 @@
+.view-comment-block {
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        margin: 0 20px 0 0;
+    }
+    &__icon {
+        margin: 0 10px 0 0;
+
+        &_eye {
+            width: 19px;
+            height: 14px;
+            fill: var(--white);
+        }
+        &_comment {
+            width: 16px;
+            height: 17px;
+            fill: none;
+            stroke: var(--white);
+        }
+    }
+}

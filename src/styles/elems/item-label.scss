@@ -1,0 +1,23 @@
+.item-label {
+    height: 24px;
+    background-color: var(--label-color);
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--white);
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 7px;
+    border-radius: 12px;
+    top: 13px;
+    right: 14px;
+
+    &_big {
+        height: 32px;
+        border-radius: 16px;
+        font-size: 17px;
+        padding: 0 11px;
+    }
+}

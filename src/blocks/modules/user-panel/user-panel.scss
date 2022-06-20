@@ -1,0 +1,41 @@
+.user-panel {
+    display: flex;
+    align-items: center;
+
+    &__user-name {
+        font-weight: 600;
+        font-size: 23px;
+        color: var(--color-main2);
+        width: calc(100% - 140px);
+        margin: 0 auto 0 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    &__link {
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        fill: var(--color-main2);
+        margin: 0 10px 0 0;
+
+        &:hover {
+            fill: var(--color-main1);
+            opacity: .8;
+        }
+    }
+    &__icon {
+        width: 23px;
+        height: 25px;
+    }
+    &__avatar {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

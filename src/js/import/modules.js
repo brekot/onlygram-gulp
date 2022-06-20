@@ -1,1 +1,1 @@
-//import "%modules%/header/header";
+import "%modules%/recommendation-block/recommendation-block";
