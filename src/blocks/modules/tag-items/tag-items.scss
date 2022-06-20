@@ -1,0 +1,54 @@
+.tag {
+
+    &-items {
+        font-size: 0;
+        margin: 0 0 10px;
+        overflow: hidden;
+
+        &_close {
+            height: 50px;
+        }
+    }
+    &-item {
+        font-size: 15px;
+        color: var(--gray2);
+        background-color: var(--white);
+        height: 40px;
+        display: inline-block;
+        line-height: 40px;
+        padding: 0 27px;
+        border-radius: 20px;
+        margin: 0 10px 10px 0;
+
+        &:hover,
+        &_active {
+            background-color: var(--tag-color);
+            color: var(--white);
+        }
+
+        &_all {
+            width: 68px;
+            float: right;
+            margin: 0;
+            stroke: var(--gray2);
+            fill: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+
+            &:hover {
+                stroke: var(--white);
+            }
+        }
+
+        &__icon {
+            transform: rotate(180deg);
+            width: 21px;
+            height: 12px;
+        }
+    }
+    &-items_close &-item__icon {
+        transform: none;
+    }
+}
