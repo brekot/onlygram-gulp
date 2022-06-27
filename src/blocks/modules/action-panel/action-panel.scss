@@ -25,10 +25,10 @@
         width: 44px;
         border-radius: 50%;
         margin: 0 0 27px;
-        fill: var(--grey1);
+        fill: var(--black);
 
         &:hover {
-            fill: var(--black);
+            fill: var(--color-main1);
         }
         &_active,
         &_active:hover {

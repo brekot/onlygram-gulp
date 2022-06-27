@@ -1,0 +1,13 @@
+.search-user-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 25px;
+
+    &__search {
+        width: calc(100% - 420px);
+    }
+    &__user {
+        width: 365px;
+    }
+}
