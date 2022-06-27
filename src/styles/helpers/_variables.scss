@@ -1,6 +1,7 @@
 :root {
 	--black: #000;
 	--white: #FFF;
+    --red: #F00;
 
 	--bg-main: #F5FAFF;
     --bg-panel: #E9F3FF;
@@ -11,9 +12,21 @@
     --link-color: #3871E0;
     --label-color: #A5A6FB;
     --tag-color: #4D9FEB;
+    --review-color: #E3E4FF;
+    --btn-two: #004788;
 
     --grey1: #BABABA;
     --gray2: #807F7F;
+    --gray3: #DDDFE3;
+    --gray4: #B7B7B7;
+
+    --input-hover: #9BD0F3;
+    --input-success: #05C83C;
+    --input-erorr: #F11111;
+
+    --star-active: #DCDF44;
 
     --opacity1: rgba(0, 0, 0, 0.15);
+
+    --transparent: rgba(0, 0, 0, 0);
 }

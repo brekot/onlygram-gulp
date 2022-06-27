@@ -1,4 +1,7 @@
-<a href="https://brekot.github.io/onlygram-gulp/">Страница</a>
+<a href="https://brekot.github.io/onlygram-gulp/">Главная страница</a>
+<a href="https://brekot.github.io/onlygram-gulp/promoting-one.html">Покупка рекламы (форма)</a>
+<a href="https://brekot.github.io/onlygram-gulp/promoting-two.html">Покупка рекламы (форма с ошибочным и корректным полем)</a>
+<a href="https://brekot.github.io/onlygram-gulp/promoting-three.html">Покупка рекламы (тарифы)</a>
 
 <hr>
 

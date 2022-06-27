@@ -1,0 +1,14 @@
+.promoting-start {
+    max-width: 930px;
+    padding: 28px 235px 56px;
+    background-color: var(--white);
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto 35px;
+
+    &__title {
+        font-weight: 500;
+        font-size: 30px;
+        margin: 0 0 53px;
+    }
+}

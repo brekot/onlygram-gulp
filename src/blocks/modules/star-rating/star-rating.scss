@@ -1,0 +1,16 @@
+.star-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 15px;
+
+    &__star {
+        width: 17px;
+        height: 18px;
+        margin: 0 2px;
+        fill: var(--gray3);
+    }
+    &__star_active {
+        fill: var(--star-active);
+    }
+}

@@ -1,0 +1,96 @@
+.form-one {
+
+    &__line {
+        position: relative;
+        margin: 0 0 34px;
+    }
+    &__input {
+        height: 64px;
+        border: 1px solid var(--black);
+        color: var(--black);
+        border-radius: 15px;
+        width: 100%;
+        padding: 0 50px 0 25px;
+        outline: none;
+        box-shadow: none;
+        transition: .5s;
+        font-size: 20px;
+
+        &:hover,
+        &:focus {
+            border-color: var(--input-hover);
+        }
+    }
+
+    &__label {
+        font-size: 20px;
+        color: var(--gray4);
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translate(0, -50%);
+        pointer-events: none;
+        background-color: var(--white);
+        padding: 0 3px;
+        transition: .5s;
+    }
+
+    &__input:hover + &__label,
+    &__input:focus + &__label {
+        color: var(--input-hover);
+    }
+    &__input:focus + &__label,
+    &__input_set + &__label {
+        top: 0;
+        font-size: 13px;
+        left: 45px;
+    }
+    &__input_success {
+        border-color: var(--input-success);
+    }
+    &__input_success + &__label {
+        color: var(--input-success);
+    }
+    &__input_error {
+        border-color: var(--input-erorr);
+    }
+    &__input_error + &__label {
+        color: var(--input-erorr);
+    }
+
+    &__icon {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        right: 20px;
+        pointer-events: none;
+        display: none;
+
+        &_success {
+            width: 25px;
+            height: 28px;
+            fill: var(--input-success);
+        }
+        &_error {
+            width: 25px;
+            height: 25px;
+            fill: var(--input-erorr);
+        }
+    }
+
+    &__input_error ~ &__icon_error,
+    &__input_success ~ &__icon_success {
+        display: block;
+    }
+
+    &__error {
+        font-size: 13px;
+        color: var(--input-erorr);
+        position: absolute;
+        left: 15px;
+
+        &-small {
+            font-size: 11px;
+        }
+    }
+}
