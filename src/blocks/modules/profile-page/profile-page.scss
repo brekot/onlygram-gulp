@@ -1,0 +1,14 @@
+.profile-page {
+    display: flex;
+    justify-content: space-between;
+
+    &__left {
+        width: 400px;
+    }
+    &__center {
+        width: calc(100% - 850px);
+    }
+    &__right {
+        width: 400px;
+    }
+}

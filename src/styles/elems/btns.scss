@@ -36,6 +36,16 @@
         background-color: var(--gray3);
     }
 
+    &-sm {
+        height: 30px;
+        border-radius: 15px;
+        font-size: 15px;
+    }
+    &-md {
+        height: 46px;
+        border-radius: 23px;
+        font-size: 18px;
+    }
     &-lg {
         height: 64px;
         border-radius: 32px;

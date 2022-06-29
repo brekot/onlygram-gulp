@@ -1,0 +1,48 @@
+.services-short {
+    background: var(--white);
+    border-radius: 30px;
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 20px 30px 25px;
+
+    &__title {
+        font-weight: 600;
+        font-size: 20px;
+        display: flex;
+    }
+    &__link {
+        font-weight: 500;
+        color: var(--tag-color);
+        margin: 0 0 0 auto;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        margin: 25px 0 0;
+    }
+    &__icon {
+        width: 30px;
+        height: 26px;
+
+        &_red {
+            fill: var(--red);
+        }
+        &_blue {
+            fill: var(--heart-blue);
+        }
+    }
+    &__info {
+        font-weight: 500;
+        font-size: 17px;
+        margin: 0 0 0 15px;
+    }
+    &__name {
+        margin: 0 0 5px;
+    }
+    &__price {
+        color: var(--gray4);
+    }
+    &__btn {
+        margin: 0 0 0 auto;
+    }
+}

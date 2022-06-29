@@ -1,0 +1,37 @@
+.fans-list-short {
+    background: var(--white);
+    border-radius: 30px;
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 20px 30px 15px;
+
+    &__title {
+        font-weight: 600;
+        font-size: 20px;
+        display: flex;
+    }
+    &__count {
+        font-weight: 500;
+        color: var(--gray4);
+        margin: 0 0 0 10px;
+    }
+    &__link {
+        font-weight: 500;
+        color: var(--tag-color);
+        margin: 0 0 0 auto;
+    }
+    &__items {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 10px 7px 0;
+    }
+}

@@ -1,0 +1,28 @@
+.tag-aside {
+    background: var(--white);
+    border-radius: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    position: sticky;
+    top: 20px;
+
+    &__link {
+        padding: 0 20px;
+        height: 32px;
+        background-color: var(--tag-color2);
+        border-radius: 16px;
+        margin: 0 7px 9px 0;
+        font-weight: 500;
+        font-size: 15px;
+        color: var(--tag-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+            background-color: var(--input-hover);
+        }
+    }
+}
