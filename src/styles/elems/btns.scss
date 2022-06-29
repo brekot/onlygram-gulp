@@ -64,4 +64,9 @@
             width: 19px;
         }
     }
+    &__comment {
+        font-size: 13px;
+        color: var(--gray5);
+        margin: 2px 0 0 3px;
+    }
 }

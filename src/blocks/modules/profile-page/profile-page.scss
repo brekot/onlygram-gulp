@@ -7,8 +7,23 @@
     }
     &__center {
         width: calc(100% - 850px);
+        min-width: calc(76% - 450px);
     }
     &__right {
         width: 400px;
+        max-width: 24%;
+    }
+}
+
+@media (max-width: 1499px)
+{
+    .profile-page {
+
+        &__center {
+            width: calc(100% - 425px);
+        }
+        &__right {
+            display: none;
+        }
     }
 }
