@@ -2,7 +2,10 @@
 <a href="https://brekot.github.io/onlygram-gulp/promoting-one.html">Покупка рекламы (форма)</a><br>
 <a href="https://brekot.github.io/onlygram-gulp/promoting-two.html">Покупка рекламы (форма с ошибочным и корректным полем)</a><br>
 <a href="https://brekot.github.io/onlygram-gulp/promoting-three.html">Покупка рекламы (тарифы)</a><br>
-<a href="https://brekot.github.io/onlygram-gulp/profile.html">Страница аккаунта</a>
+<a href="https://brekot.github.io/onlygram-gulp/profile.html">Страница аккаунта</a><br>
+<a href="https://brekot.github.io/onlygram-gulp/pay-one.html">Оплата</a><br>
+<a href="https://brekot.github.io/onlygram-gulp/pay-two.html">Оплата (заполнено)</a><br>
+<a href="https://brekot.github.io/onlygram-gulp/pay-three.html">Оплата (с ошибкой)</a>
 
 <hr>
 

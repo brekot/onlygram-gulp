@@ -1,0 +1,215 @@
+.pay-page {
+    background-image: url(../img/logo.bg.one.svg);
+    background-repeat: no-repeat;
+    background-size: 1180px;
+    background-position: -140px 160px;
+    height: 100%;
+}
+
+.pay-form-block {
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__top {
+        margin: 0 0 30px;
+        width: 720px;
+    }
+    &__link {
+        font-size: 25px;
+        color: var(--gray2);
+        fill: none;
+        stroke: var(--gray2);
+        display: inline-flex;
+        align-items: center;
+
+        &:hover {
+            stroke: var(--link-color);
+        }
+        &-icon {
+            width: 16px;
+            height: 10px;
+            transform: rotate(90deg);
+            margin: 0 5px 0 0;
+        }
+    }
+}
+
+.pay-form {
+    background: var(--white);
+    border-radius: 30px;
+    width: 720px;
+
+    &__head {
+        font-weight: 600;
+        font-size: 25px;
+        border-bottom: 1px solid var(--opacity1);
+        height: 74px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__body {
+        padding: 25px 30px 30px;
+    }
+
+    &-item {
+        display: flex;
+        align-items: center;
+        padding: 0 0 25px;
+
+        &__pict {
+            width: 82px;
+            height: 82px;
+            border: 3px solid var(--review-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+        &__img {
+            height: 70px;
+            width: 70px;
+        }
+        &__block {
+            margin: 0 auto 0 15px;
+        }
+        &__name {
+            font-weight: 600;
+            font-size: 20px;
+            margin: 0 0 5px;
+        }
+        &__desc {
+            font-size: 11px;
+        }
+        &__price {
+            font-weight: 500;
+            font-size: 18px;
+            width: 135px;
+            text-align: center;
+
+            &-old {
+                color: var(--red);
+                margin: 0 0 5px;
+                text-decoration: line-through;
+            }
+        }
+    }
+
+    &-code {
+
+        &__inner {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__input {
+            width: 515px;
+        }
+        &__btn {
+            width: 135px;
+        }
+    }
+
+    &-tabs {
+        display: flex;
+        margin: 0 -30px;
+        border-top: 1px solid var(--bg-panel);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+        &__tab {
+            height: 83px;
+            border-bottom: 5px solid var(--tag-color2);
+            font-size: 20px;
+            color: var(--black);
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover {
+                border-color: var(--tag-color);
+                color: var(--black);
+            }
+            &_active {
+                background-color: var(--bg-panel);
+                border-color: var(--tag-color);
+            }
+        }
+        &__img {
+            margin: 0 10px 0 0;
+        }
+
+        &-block {
+            padding: 30px 0 0;
+
+            &__item {
+                display: none;
+
+                &_active {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    &-card {
+
+        &__input {
+            border: none;
+            background-color: var(--transparent);
+            padding: 0;
+            font-size: 17px;
+
+            &-block {
+                height: 60px;
+                background: #F0F7FF;
+                border-radius: 15px;
+                margin: 15px 0;
+                display: flex;
+                align-items: center;
+                padding: 0 20px 0 15px;
+                font-size: 17px;
+            }
+            &-icon {
+                width: 42px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                &-error {
+                    width: 25px;
+                    height: 25px;
+                    fill: var(--input-erorr);
+                }
+            }
+            &_card {
+                margin: 0 auto 0 15px;
+            }
+            &_date {
+                width: 30px;
+            }
+            &_left {
+                text-align: right;
+            }
+            &-sep {
+                margin: 0 5px;
+            }
+            &_cvc {
+                width: 45px;
+                margin: 0 0 0 10px;
+            }
+            &_error {
+                color: var(--input-erorr);
+            }
+        }
+        &__comment {
+            margin: 30px 0 0;
+            font-size: 14px;
+            color: var(--gray4);
+            text-align: center;
+        }
+    }
+}

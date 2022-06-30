@@ -16,6 +16,12 @@
         transition: .5s;
         font-size: 20px;
 
+        &_sm {
+            height: 50px;
+            font-size: 16px;
+            border-color: var(--gray4);
+        }
+
         &:hover,
         &:focus {
             border-color: var(--input-hover);
@@ -33,6 +39,10 @@
         background-color: var(--white);
         padding: 0 3px;
         transition: .5s;
+    }
+
+    &__input_sm + &__label {
+        font-size: 16px;
     }
 
     &__input:hover + &__label,

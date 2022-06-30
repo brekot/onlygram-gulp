@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Onlygram</title>
+        <meta name="theme-color" content="#fff">
+        <!-- <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" /> -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="local/styles/main.min.css">
+    </head>
+    <body class="pay-page">
+        <div class="pay-form-block">
+    <div class="pay-form-block__top">
+        <a href="javascript:;" class="pay-form-block__link">
+            <svg class="pay-form-block__link-icon">
+                <use xlink:href="local/img/sprite.svg#str"></use>
+            </svg>
+            Back
+        </a>
+    </div>
+
+    <div class="pay-form">
+        <div class="pay-form__head">
+            Complete your Promotion order
+        </div>
+        <div class="pay-form__body">
+
+            <div class="pay-form-item">
+                <div class="pay-form-item__pict">
+                    <img src="local/img/upload/oleg.png" alt="" class="pay-form-item__img">
+                </div>
+                <div class="pay-form-item__block">
+                    <div class="pay-form-item__name">15-day promo (@wetaja)</div>
+                    <div class="pay-form-item__desc">
+                        Your profile will be promoted for 15 days<br>
+                        to ~900,000 potential fans
+                    </div>
+                </div>
+                <div class="pay-form-item__price">
+                    <div class="pay-form-item__price-old">$899.00</div>
+                    <div class="pay-form-item__price-set">$599.00</div>
+                </div>
+            </div>
+
+            <div class="pay-form-code form-one">
+                <form action="">
+                    <div class="pay-form-code__inner">
+                        <div class="pay-form-code__input form-one__line">
+                            <input id="profile" type="text" class="form-one__input form-one__input_sm" value="">
+                            <label for="profile" class="form-one__label">Your profile link</label>
+                        </div>
+                        <div class="pay-form-code__btn">
+                            <button class="btn btn-one btn-50 btn-border-15 btn-full-width" type="submit">Apply</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="pay-form-tabs">
+                <a href="javascript:;" class="pay-form-tabs__tab pay-form-tabs__tab_active" data-id="tab1">
+                    <img src="local/img/pay/card.png" alt="" class="pay-form-tabs__img">
+                    Credit Card
+                </a>
+                <a href="javascript:;" class="pay-form-tabs__tab" data-id="tab2">
+                    <img src="local/img/pay/cripto.png" alt="" class="pay-form-tabs__img">
+                    Crypto
+                </a>
+            </div>
+
+            <div class="pay-form-tabs-block">
+                <div class="pay-form-tabs-block__item pay-form-tabs-block__item_active" id="tab1">
+
+                    <div class="pay-form-card">
+                        <a href="javascript:;" class="btn btn-black btn-50 btn-border-15 btn-full-width" type="submit">
+                            <img src="local/img/pay/apple.png" alt="">
+                        </a>
+                        <form action="">
+                            <div class="pay-form-card__input-block">
+                                <div class="pay-form-card__input-icon">
+                                    <svg class="pay-form-card__input-icon-error">
+                                        <use xlink:href="local/img/sprite.svg#input-error"></use>
+                                    </svg>
+                                </div>
+                                <input class="pay-form-card__input pay-form-card__input_card pay-form-card__input_error" type="text" value="5012 3213 2423 5464" placeholder="Card Number">
+                                <input class="pay-form-card__input pay-form-card__input_date pay-form-card__input_left" type="text" value="05" placeholder="MM" maxlength="2">
+                                <span class="pay-form-card__input-sep"> / </span>
+                                <input class="pay-form-card__input pay-form-card__input_date" type="text" value="24" placeholder="YY" maxlength="2">
+                                <input class="pay-form-card__input pay-form-card__input_cvc" type="text" value="743" placeholder="CVC" maxlength="4"/>
+                            </div>
+                            <button type="submit" class="btn btn-one btn-50 btn-border-15 btn-full-width" type="submit">Pay $599.00</button>
+                        </form>
+                        <div class="pay-form-card__comment">
+                            Secure checkout powered by
+                        </div>
+                    </div>
+
+                </div>
+                <div class="pay-form-tabs-block__item" id="tab2">
+                    <a href="javascript:;" class="btn btn-one btn-50 btn-border-15 btn-full-width" type="submit">Pay securely by Crypto</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        <!--  <script src="local/js/vendor.min.js"></script> -->
+        <script src="local/js/main.min.js"></script>
+    </body>
+</html>

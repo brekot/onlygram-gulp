@@ -32,6 +32,16 @@
         }
     }
 
+    &-black {
+        background-color: var(--black);
+        color: var(--white);
+
+        &:hover {
+            background-color: var(--gray2);
+            color: var(--white);
+        }
+    }
+
     &:disabled {
         background-color: var(--gray3);
     }
@@ -49,6 +59,20 @@
     &-lg {
         height: 64px;
         border-radius: 32px;
+    }
+
+    &-50 {
+        height: 50px;
+        font-size: 18px;
+    }
+    &-60 {
+        height: 50px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    &-border-15 {
+        border-radius: 15px;
     }
 
     &-full-width {
