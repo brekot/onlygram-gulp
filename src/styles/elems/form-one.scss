@@ -86,6 +86,25 @@
             height: 25px;
             fill: var(--input-erorr);
         }
+        &_pass {
+            display: block;
+            width: 33px;
+            height: 19px;
+            fill: var(--black);
+            transition: .5s;
+            pointer-events: auto;
+            cursor: pointer;
+        }
+    }
+
+    &__icon_pass:hover,
+    &__input:hover ~ &__icon_pass {
+        fill: var(--input-hover);
+    }
+
+    &__input_error ~ &__icon_pass,
+    &__input_success ~ &__icon_pass {
+        display: none;
     }
 
     &__input_error ~ &__icon_error,
@@ -100,7 +119,7 @@
         left: 15px;
 
         &-small {
-            font-size: 11px;
+            font-size: 10px;
         }
     }
 }

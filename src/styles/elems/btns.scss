@@ -32,6 +32,16 @@
         }
     }
 
+    &-google {
+        background-color: var(--google-link);
+        color: var(--white);
+
+        &:hover {
+            background-color: var(--link-color);
+            color: var(--white);
+        }
+    }
+
     &-black {
         background-color: var(--black);
         color: var(--white);

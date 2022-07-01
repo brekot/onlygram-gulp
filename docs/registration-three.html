@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Onlygram</title>
+        <meta name="theme-color" content="#fff">
+        <!-- <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" /> -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="local/styles/main.min.css">
+    </head>
+    <body class="registration-page">
+        <div class="registration-page__parts">
+            <div class="registration-page__part registration-page__part_left">
+                <div class="registration-info">
+    <div class="registration-info__logo">
+        <img src="local/img/logo.white.svg" alt="" class="registration-info__logo-img">
+        <span class="registration-info__logo-text">Onlygram</span>
+    </div>
+    <div class="registration-info__text">
+        Sign up to chat, share 
+        content and support 
+        your favorite authors
+    </div>
+</div>
+            </div>
+            <div class="registration-page__part registration-page__part_right">
+                <div class="registration-form">
+    <div class="registration-form__title">Create your account</div>
+    <div class="form-one">
+        <form action="">
+            <div class="form-one__line">
+                <input id="name" type="text" class="form-one__input form-one__input_set form-one__input_success" value="Kate">
+                <label for="name" class="form-one__label">Name</label>
+                <svg class="form-one__icon form-one__icon_success">
+                    <use xlink:href="local/img/sprite.svg#input-success"></use>
+                </svg>
+            </div>
+            <div class="form-one__line">
+                <input id="email" type="email" class="form-one__input form-one__input_set form-one__input_error" value="coconutkitty@gmail.com">
+                <label for="email" class="form-one__label">E-mail</label>
+                <div class="form-one__error">
+                    ooops, uncorrect e-mail format <span class="form-one__error-small">(for ex. jimmyneytron@gmail.com)</span>
+                </div>
+                <svg class="form-one__icon form-one__icon_error">
+                    <use xlink:href="local/img/sprite.svg#input-error"></use>
+                </svg>
+            </div>
+            <div class="form-one__line">
+                <input id="password" type="password" class="form-one__input form-one__input_set form-one__input_error" value="12345678">
+                <label for="password" class="form-one__label">Password</label>
+                <div class="form-one__error">
+                    sorry, but password is not so good <span class="form-one__error-small">(it must contain only latin letters and numbers)</span>
+                </div>
+                <svg class="form-one__icon form-one__icon_error">
+                    <use xlink:href="local/img/sprite.svg#input-error"></use>
+                </svg>
+                <svg class="form-one__icon form-one__icon_pass">
+                    <use xlink:href="local/img/sprite.svg#input-pass"></use>
+                </svg>
+            </div>
+            <button class="btn btn-one btn-lg btn-full-width" type="submit" disabled>SIGN UP</button>
+        </form>
+    </div>
+    <div class="registration-form__desc">
+        By registering, you agree to our <a href="javascript:;" class="registration-form__link">Terms of Service</a> and <a href="javascript:;" class="registration-form__link">Privacy Policy</a> and confirm that you are at least 18 years old.
+    </div>
+    <div class="registration-form__btns">
+        <a href="javascript:;" class="registration-form__btn_twitter registration-form__btn_margin btn btn-one btn-lg btn-full-width">SIGN IN WITH TWITTER</a>
+        <a href="javascript:;" class="registration-form__btn_google registration-form__btn btn btn-google btn-lg btn-full-width">SIGN IN WITH GOOGLE</a>
+    </div>
+</div>
+            </div>
+        </div>
+        <!--  <script src="local/js/vendor.min.js"></script> -->
+        <script src="local/js/main.min.js"></script>
+    </body>
+</html>

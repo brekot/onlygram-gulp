@@ -1,0 +1,81 @@
+.registration {
+
+    &-page {
+        background-color: var(--white);
+        height: 100%;
+
+        &__parts {
+            display: flex;
+            min-height: 100%;
+            width: 100%;
+        }
+        &__part {
+            width: 50%;
+            display: flex;
+            padding: 30px 0;
+
+            &_left {
+                background-color: var(--tag-color);
+                background-image: url(../img/logo.bg.two.svg);
+                background-repeat: no-repeat;
+                background-size: 1095px;
+                background-position: calc(100% - 85px) 245px;
+            }
+        }
+    }
+
+    &-form {
+        width: 460px;
+        text-align: center;
+        margin: auto;
+
+        &__title {
+            font-weight: bold;
+            font-size: 34px;
+            margin: 0 0 35px;
+        }
+        &__desc {
+            margin: 20px auto;
+            font-size: 18px;
+            color: var(--gray4);
+            max-width: 300px;
+        }
+        &__link {
+            color: var(--tag-color);
+        }
+        &__btn {
+
+            &_margin {
+                margin: 0 0 25px;
+            }
+            &_twitter {
+                position: relative;
+
+                &:before {
+                    content: "";
+                    background: url(../img/registration/twitter.png) no-repeat center;
+                    height: 32px;
+                    width: 32px;
+                    position: absolute;
+                    left: 20px;
+                    top: 50%;
+                    transform: translate(0, -50%);
+                }
+            }
+            &_google {
+                position: relative;
+
+                &:before {
+                    content: "";
+                    background: var(--white) url(../img/registration/google.png) no-repeat center;
+                    width: 57px;
+                    position: absolute;
+                    left: 3px;
+                    top: 3px;
+                    bottom: 3px;
+                    border-radius: 50% 0 0 50%;
+                }
+            }
+        }
+    }
+}
