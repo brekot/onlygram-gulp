@@ -12,7 +12,7 @@
         &__part {
             width: 50%;
             display: flex;
-            padding: 30px 0;
+            padding: 65px 0;
 
             &_left {
                 background-color: var(--tag-color);
@@ -21,6 +21,12 @@
                 background-size: 1095px;
                 background-position: calc(100% - 85px) 245px;
             }
+        }
+        &__top-link {
+            font-size: 20px;
+            position: absolute;
+            right: 40px;
+            top: 40px;
         }
     }
 
@@ -33,6 +39,10 @@
             font-weight: bold;
             font-size: 34px;
             margin: 0 0 35px;
+
+            &-color {
+                color: var(--color-main1);
+            }
         }
         &__desc {
             margin: 20px auto;

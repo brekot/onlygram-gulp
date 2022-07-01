@@ -8,7 +8,10 @@
 <a href="https://brekot.github.io/onlygram-gulp/pay-three.html">Оплата (с ошибкой)</a><br>
 <a href="https://brekot.github.io/onlygram-gulp/registration-one.html">Регистрация (форма)</a><br>
 <a href="https://brekot.github.io/onlygram-gulp/registration-two.html">Регистрация (форма с корректными полями)</a><br>
-<a href="https://brekot.github.io/onlygram-gulp/registration-three.html">Регистрация  (форма с ошибочными и корректными полями)</a>
+<a href="https://brekot.github.io/onlygram-gulp/registration-three.html">Регистрация  (форма с ошибочными и корректными полями)</a><br>
+<a href="https://brekot.github.io/onlygram-gulp/login-one.html">Авторизация (форма)</a><br>
+<a href="https://brekot.github.io/onlygram-gulp/login-two.html">Авторизация (форма с корректными полями)</a><br>
+<a href="https://brekot.github.io/onlygram-gulp/login-three.html">Авторизация  (форма с ошибочными полями)</a>
 
 <hr>
 
