@@ -13,17 +13,17 @@
         width: 400px;
         max-width: 24%;
     }
-}
-
-@media (max-width: 1499px)
-{
-    .profile-page {
-
-        &__center {
-            width: calc(100% - 425px);
-        }
-        &__right {
-            display: none;
+    
+    @media (max-width: 1499px)
+    {
+        & {
+    
+            &__center {
+                width: calc(100% - 425px);
+            }
+            &__right {
+                display: none;
+            }
         }
     }
 }

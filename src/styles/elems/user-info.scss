@@ -1,0 +1,37 @@
+.user-info {
+    color: var(--white);
+    font-weight: 500;
+
+    &__title {
+        font-size: 25px;
+        margin: 0 0 15px;
+    }
+    &__line {
+        display: flex;
+        align-items: center;
+    }
+    &__pict {
+        border-radius: 25px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__block {
+        padding: 0 0 0 20px;
+    }
+    &__desc {
+        font-size: 16px;
+        margin: 0 0 5px;
+        display: flex;
+        align-items: center;
+    }
+    &__verification {
+        height: 14px;
+        width: 14px;
+        margin: 0 0 0 5px;
+    }
+    &__name {
+        font-size: 19px;
+    }
+}

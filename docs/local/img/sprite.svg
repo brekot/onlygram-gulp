@@ -45,6 +45,9 @@
     <symbol id="str-all" viewBox="0 0 21 12">
         <path d="M1 1L11 10L20 1" stroke-width="2" stroke-linecap="round"/>
     </symbol>
+    <symbol id="str-more" viewBox="0 0 11 25">
+        <path d="M1.76562 23.3672L9.10692 12.3552L1.76562 1.34329" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
     <symbol id="plus" viewBox="0 0 19 19">
         <path d="M9 1V18" stroke-width="2" stroke-linecap="round"/>
         <path d="M1 10L18 10" stroke-width="2" stroke-linecap="round"/>

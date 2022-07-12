@@ -20,4 +20,33 @@
         font-size: 17px;
         padding: 0 11px;
     }
+
+    &-two {
+        font-weight: 500;
+        font-size: 24px;
+        color: var(--white);
+        background: var(--tag-color);
+        padding: 0 15px;
+        height: 42px;
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        border-radius: 21px;
+        bottom: 20px;
+        right: 20px;
+
+        &_up {
+            right: 15px;
+            top: 15px;
+            height: 34px;
+            border-radius: 17px;
+            font-size: 20px;
+            padding: 0 10px;
+        }
+        &__small {
+            font-size: 14px;
+            margin: 0 0 0 5px;
+        }
+    }
 }

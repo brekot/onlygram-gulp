@@ -1,0 +1,49 @@
+.offers-tags {
+    font-weight: 500;
+    font-size: 20px;
+    height: 52px;
+    overflow: hidden;
+    margin: 0 0 20px;
+
+    &__more {
+        color: var(--black);
+        stroke: var(--black);
+        fill: none;
+        float: right;
+        display: flex;
+        height: 52px;
+        align-items: center;
+
+        &:hover {
+            stroke: var(--link-color);
+        }
+        &-icon {
+            width: 11px;
+            height: 25px;
+            margin: 0 0 0 10px;
+        }
+    }
+    &__link {
+        display: inline-flex;
+        align-items: center;
+        color: var(--tag-color);
+        fill: var(--tag-color);
+        height: 52px;
+        background-color: var(--tag-color2);
+        border-radius: 26px;
+        margin: 0 10px 0 0;
+        padding: 0 15px 0 12px;
+
+        &:hover,
+        &_active {
+            color: var(--white);
+            fill: var(--white);
+            background-color: var(--tag-color);
+        }
+    }
+    &__icon {
+        height: 29px;
+        width: 29px;
+        margin: 0 8px 0 0;
+    }
+}

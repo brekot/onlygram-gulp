@@ -11,7 +11,8 @@
 <a href="https://brekot.github.io/onlygram-gulp/registration-three.html">Регистрация  (форма с ошибочными и корректными полями)</a><br>
 <a href="https://brekot.github.io/onlygram-gulp/login-one.html">Авторизация (форма)</a><br>
 <a href="https://brekot.github.io/onlygram-gulp/login-two.html">Авторизация (форма с корректными полями)</a><br>
-<a href="https://brekot.github.io/onlygram-gulp/login-three.html">Авторизация  (форма с ошибочными полями)</a>
+<a href="https://brekot.github.io/onlygram-gulp/login-three.html">Авторизация  (форма с ошибочными полями)</a><br>
+<a href="https://brekot.github.io/onlygram-gulp/offers.html">Объявления</a><br>
 
 <hr>
 
@@ -19,12 +20,17 @@
 
 <hr>
 
-## :hammer_and_wrench: Установка
-* установите [NodeJS](https://nodejs.org/en/)
+## Сторонние библиотеки
+* Swiper (https://swiperjs.com/)
+
+<hr>
+
+## Установка
+* установите [NodeJS] (https://nodejs.org/en/)
 * установите глобально:
-    * [Yarn](https://yarnpkg.com/getting-started): ```npm i -g yarn```
-    * [Gulp](https://gulpjs.com/): ```npm i -g gulp```
-    * [Bem Tools](https://www.npmjs.com/package/bem-tools-core): ```npm i -g bem-tools-core```
+    * [Yarn] (https://yarnpkg.com/getting-started): ```npm i -g yarn```
+    * [Gulp] (https://gulpjs.com/): ```npm i -g gulp```
+    * [Bem Tools] (https://www.npmjs.com/package/bem-tools-core): ```npm i -g bem-tools-core```
 * перейдите в скачанную папку со сборкой: ```cd ...```
 * введите ```yarn set version berry```
 * скачайте необходимые зависимости: ```yarn```
