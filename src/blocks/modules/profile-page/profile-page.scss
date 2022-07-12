@@ -13,7 +13,10 @@
         width: 400px;
         max-width: 24%;
     }
-    
+    &__full {
+        width: calc(100% - 425px);
+    }
+
     @media (max-width: 1499px)
     {
         & {

@@ -37,6 +37,23 @@
         color: var(--gray4);
         margin: 0 0 15px;
     }
+    &__rating {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 20px;
+
+        &-count {
+            font-weight: 600;
+            margin: 0 12px 0 0;
+        }
+        &-reviews {
+            font-weight: 500;
+            margin: 0 0 0 14px;
+            color: var(--tag-color);
+        }
+    }
     &__items {
         display: flex;
         flex-wrap: wrap;
@@ -45,6 +62,9 @@
 
         &_open {
             height: auto;
+        }
+        &_short {
+            margin: 0 0 -20px;
         }
     }
     &__item {

@@ -7,11 +7,17 @@
         width: 20%;
         padding: 0 10px 20px;
     }
+    &_short &__item {
+        width: 25%;
+    }
 
     @media (max-width: 1499px)
     {
         &__item {
             width: 25%;
+        }
+        &_short &__item {
+            width: calc(100% / 3);
         }
     }
 }
@@ -46,5 +52,6 @@
         z-index: 2;
         bottom: 20px;
         left: 20px;
+        right: 20px;
     }
 }

@@ -13,6 +13,7 @@
 <a href="https://brekot.github.io/onlygram-gulp/login-two.html">Авторизация (форма с корректными полями)</a><br>
 <a href="https://brekot.github.io/onlygram-gulp/login-three.html">Авторизация  (форма с ошибочными полями)</a><br>
 <a href="https://brekot.github.io/onlygram-gulp/offers.html">Объявления</a><br>
+<a href="https://brekot.github.io/onlygram-gulp/profile-offers.html">Профиль с объявлениями</a><br>
 
 <hr>
 
