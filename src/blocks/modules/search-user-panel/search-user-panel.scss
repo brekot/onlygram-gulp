@@ -7,6 +7,12 @@
     &__search {
         width: calc(100% - 420px);
     }
+    &__title {
+        font-weight: 300;
+        font-size: 50px;
+        line-height: 1;
+        color: var(--color-main2);
+    }
     &__user {
         width: 365px;
     }

@@ -4,6 +4,7 @@
         position: relative;
         margin: 0 0 34px;
     }
+
     &__input {
         height: 64px;
         border: 1px solid var(--black);
@@ -16,15 +17,21 @@
         transition: .5s;
         font-size: 20px;
 
+        &:hover,
+        &:focus {
+            border-color: var(--input-hover);
+        }
+
         &_sm {
             height: 50px;
             font-size: 16px;
             border-color: var(--gray4);
         }
 
-        &:hover,
-        &:focus {
-            border-color: var(--input-hover);
+        &_textarea {
+            height: 120px;
+            resize: none;
+            padding: 15px 50px 15px 25px;
         }
     }
 
@@ -39,10 +46,14 @@
         background-color: var(--white);
         padding: 0 3px;
         transition: .5s;
+
+        &-red {
+            color: var(--red);
+        }
     }
 
-    &__input_sm + &__label {
-        font-size: 16px;
+    &__input_textarea + &__label {
+        top: 30px;
     }
 
     &__input:hover + &__label,
@@ -55,6 +66,11 @@
         font-size: 13px;
         left: 45px;
     }
+
+    &__input_sm + &__label {
+        font-size: 16px;
+    }
+
     &__input_success {
         border-color: var(--input-success);
     }
@@ -66,6 +82,48 @@
     }
     &__input_error + &__label {
         color: var(--input-erorr);
+    }
+
+    &__label-out {
+        font-weight: 500;
+        font-size: 15px;
+        margin: 0 0 13px;
+        display: flex;
+        align-items: center;
+    }
+    &__label-desc {
+        color: var(--tag-color);
+        font-weight: 500;
+        font-size: 10px;
+        margin: 0 0 0 5px;
+    }
+
+    &_xs &__line {
+        margin: 0 0 20px;
+    }
+    &_xs &__input {
+        height: 40px;
+        font-size: 12px;
+        border-radius: 6px;
+        padding: 0 12px;
+    }
+    &_xs &__input_textarea {
+        height: 92px;
+        resize: none;
+        padding: 10px 12px;
+    }
+    &_xs &__label {
+        font-size: 12px;
+        left: 10px;
+    }
+    &_xs &__input_textarea + &__label {
+        top: 20px;
+    }
+    &_xs &__input:focus + &__label,
+    &_xs &__input_set + &__label {
+        left: 20px;
+        top: 0;
+        font-size: 12px;
     }
 
     &__icon {

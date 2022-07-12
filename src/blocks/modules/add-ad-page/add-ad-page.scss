@@ -1,0 +1,12 @@
+.add-ad-page {
+    display: flex;
+
+    &__menu {
+        width: 335px;
+    }
+    &__page {
+        margin: 0 0 0 20px;
+        max-width: 980px;
+        width: calc(100% - 355px);
+    }
+}

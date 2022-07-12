@@ -1,0 +1,62 @@
+.add-ad-form {
+    background-color: var(--white);
+    border-radius: 30px;
+    padding: 30px 100px 10px 40px;
+    margin: 0 0 20px;
+    font-size: 15px;
+
+    &__title {
+        font-weight: 600;
+        margin: 0 0 20px;
+    }
+    &__sm {
+        width: 375px;
+    }
+    &__xs {
+        width: 200px;
+    }
+    &__social {
+        color: var(--tag-color);
+        font-weight: 500;
+        font-size: 15px;
+        margin: 0 0 15px;
+        display: inline-block;
+    }
+    &__border {
+        border: 1px solid var(--black);
+        border-radius: 5px;
+        padding: 15px;
+        margin: 0 0 20px;
+    }
+    &__radios {
+        display: flex;
+        align-items: center;
+    }
+    &__radio {
+        margin: 0 20px 0 0;
+    }
+    &__checkbox {
+        margin: 0 0 25px;
+    }
+    &__comment {
+        margin: 45px 0 20px 30px;
+    }
+    &__link {
+        color: var(--tag-color);
+    }
+
+    &-btns {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0 0 20px;
+
+        &__one {
+            margin: 0 12px 0 0;
+            width: 175px;
+        }
+        &__two {
+            width: 230px;
+        }
+    }
+}

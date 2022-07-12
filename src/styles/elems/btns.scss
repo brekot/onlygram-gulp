@@ -32,6 +32,17 @@
         }
     }
 
+    &-three {
+        background-color: var(--tag-color2);
+        color: var(--tag-color);
+        stroke: var(--tag-color);
+
+        &:hover {
+            background-color: var(--link-color);
+            color: var(--white);
+        }
+    }
+
     &-google {
         background-color: var(--google-link);
         color: var(--white);
