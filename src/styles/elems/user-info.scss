@@ -5,6 +5,10 @@
     &__title {
         font-size: 25px;
         margin: 0 0 15px;
+
+        &_sm {
+            font-size: 22px;
+        }
     }
     &__line {
         display: flex;

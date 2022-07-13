@@ -35,10 +35,19 @@
     &-three {
         background-color: var(--tag-color2);
         color: var(--tag-color);
-        stroke: var(--tag-color);
 
         &:hover {
             background-color: var(--link-color);
+            color: var(--white);
+        }
+    }
+
+    &-green {
+        background-color: var(--btn-green);
+        color: var(--white);
+
+        &:hover {
+            opacity: .6;
             color: var(--white);
         }
     }

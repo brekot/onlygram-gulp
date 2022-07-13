@@ -1,7 +1,11 @@
-import Swiper from 'swiper';
+import { Carousel } from "@fancyapps/ui";
 
-new Swiper('.offers-hottest__block', {
-    loop: true,
-    slidesPerView: "auto",
-    spaceBetween: 20,
-});
+if (document.querySelector(".offers-hottest__carousel"))
+{
+    new Carousel(document.querySelector(".offers-hottest__carousel"), {
+        Dots: false,
+        Navigation: false,
+        slidesPerPage : 'auto',
+        center : false
+    });
+}

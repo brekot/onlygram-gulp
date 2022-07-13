@@ -23,11 +23,6 @@
 
 <hr>
 
-## Сторонние библиотеки
-* Swiper (https://swiperjs.com/)
-
-<hr>
-
 ## Установка
 * установите [NodeJS] (https://nodejs.org/en/)
 * установите глобально:

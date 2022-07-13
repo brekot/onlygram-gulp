@@ -2,7 +2,7 @@
 const links = document.querySelectorAll('.menu-aside__link');
 const sections = document.querySelectorAll('.add-ad-form');
 
-if (links && sections)
+if (links.length && sections.length)
 {
     function changeLinkState()
     {
