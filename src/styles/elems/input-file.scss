@@ -1,0 +1,68 @@
+.input-files {
+    display: flex;
+    margin: 0 0 10px;
+
+    &__big {
+        margin: 0 0 10px;
+    }
+    &__smalls {
+        margin: 0 0 0 10px;
+    }
+    &__small {
+        margin: 0 0 10px;
+    }
+}
+
+.input-file {
+    position: relative;
+    width: 140px;
+    height: 170px;
+    border-radius: 6px;
+    overflow: hidden;
+
+    &__input {
+        opacity: 0;
+        position: absolute;
+        z-index: 1;
+    }
+    &__label {
+        background-color: var(--gray6);
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 1.2;
+        text-align: center;
+        color: var(--gray7);
+        fill: var(--gray7);
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: .5s;
+
+        &:hover {
+            fill: var(--gray2);
+            color: var(--gray2);
+        }
+    }
+    &__icon {
+        width: 51px;
+        height: 43px;
+    }
+    &__text {
+        width: 65px;
+        margin: 10px 0 0;
+    }
+
+    &_sm {
+        width: 60px;
+        height: 80px;
+    }
+    &_sm &__icon {
+        width: 18px;
+        height: 14px;
+    }
+}

@@ -9,11 +9,19 @@
         font-weight: 600;
         margin: 0 0 20px;
     }
+    &__line {
+        display: flex;
+    }
     &__sm {
         width: 375px;
     }
     &__xs {
         width: 200px;
+        position: relative;
+    }
+    &__xxs {
+        width: 150px;
+        margin: 0 0 0 10px;
     }
     &__social {
         color: var(--tag-color);
@@ -43,6 +51,19 @@
     }
     &__link {
         color: var(--tag-color);
+    }
+    &__currency {
+        font-weight: 400;
+        font-size: 12px;
+        color: var(--gray4);
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        right: 12px;
+
+        &-input {
+            padding-right: 30px !important;
+        }
     }
 
     &-btns {

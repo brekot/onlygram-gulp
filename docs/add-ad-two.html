@@ -94,9 +94,67 @@
     <div class="form-one__label-out">
         Photoes <span class="form-one__label-desc">(no more than 5)</span>
     </div>
+    <div class="input-files">
+        <div class="input-files__big">
+            <div class="input-file">
+                <input name="file" type="file" name="file1" id="file1" class="input-file__input" multiple>
+                <label for="file1" class="input-file__label">
+                    <svg class="input-file__icon">
+                        <use xlink:href="local/img/sprite.svg#input-file"></use>
+                    </svg>
+                    <span class="input-file__text">select ad cover</span>
+                </label>
+            </div>
+        </div>
+        <div class="input-files__smalls">
+            <div class="input-files__small">
+                <div class="input-file input-file_sm">
+                    <input name="file" type="file" name="file2" id="file2" class="input-file__input" multiple>
+                    <label for="file2" class="input-file__label">
+                        <svg class="input-file__icon">
+                            <use xlink:href="local/img/sprite.svg#input-file"></use>
+                        </svg>
+                    </label>
+                </div>
+            </div>
+            <div class="input-files__small">
+                <div class="input-file input-file_sm">
+                    <input name="file" type="file" name="file3" id="file3" class="input-file__input" multiple>
+                    <label for="file3" class="input-file__label">
+                        <svg class="input-file__icon">
+                            <use xlink:href="local/img/sprite.svg#input-file"></use>
+                        </svg>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="input-files__smalls">
+            <div class="input-files__small">
+                <div class="input-file input-file_sm">
+                    <input name="file" type="file" name="file4" id="file4" class="input-file__input" multiple>
+                    <label for="file4" class="input-file__label">
+                        <svg class="input-file__icon">
+                            <use xlink:href="local/img/sprite.svg#input-file"></use>
+                        </svg>
+                    </label>
+                </div>
+            </div>
+            <div class="input-files__small">
+                <div class="input-file input-file_sm">
+                    <input name="file" type="file" name="file5" id="file5" class="input-file__input" multiple>
+                    <label for="file5" class="input-file__label">
+                        <svg class="input-file__icon">
+                            <use xlink:href="local/img/sprite.svg#input-file"></use>
+                        </svg>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="form-one__label-out">Video</div>
     <div class="add-ad-form__sm">
-        <div class="form-one__line form-one__line_xs">
+        <div class="form-one__line">
             <input id="b1n2" type="text" class="form-one__input" value="">
             <label for="b1n2" class="form-one__label">video link</label>
         </div>
@@ -109,16 +167,56 @@
         Ad type <span class="form-one__label-desc">(the choice depends on which section your ad will be displayed in)</span>
     </div>
     <div class="add-ad-form__xs">
+        <div class="form-one__line">
+            <div class="select select_selected">
+                <button type="button" class="select__toggle" name="type" value="" data-select="toggle">
+                    I can!
+                </button>
+                <div class="select__dropdown">
+                    <ul class="select__options">
+                        <li class="select__option" data-select="option" data-value="v1" data-index="0">I can!</li>
+                        <li class="select__option" data-select="option" data-value="v2" data-index="1">I want!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="form-one__label-out">
         Category <span class="form-one__label-desc">(your sorting in the search depends on the category you choose)</span>
     </div>
     <div class="add-ad-form__sm">
+        <div class="form-one__line">
+            <div class="select">
+                <button type="button" class="select__toggle" name="category" value="" data-select="toggle">
+                    <span class="select__clear"></span>
+                </button>
+                <div class="select__dropdown">
+                    <ul class="select__options">
+                        <li class="select__section">PHOTO&VIDEOPRODUCTION</li>
+                        <li class="select__option" data-select="option" data-value="v1" data-index="0">Videofilming</li>
+                        <li class="select__option" data-select="option" data-value="v2" data-index="1">Production</li>
+                        <li class="select__option" data-select="option" data-value="v3" data-index="2">Photography</li>
+                        <li class="select__option" data-select="option" data-value="v4" data-index="3">PR and marketing</li>
+                        <li class="select__option" data-select="option" data-value="v5" data-index="4">Art</li>
+                        <li class="select__section">18+ ONLY</li>
+                        <li class="select__option" data-select="option" data-value="v5" data-index="5">Private video</li>
+                        <li class="select__option" data-select="option" data-value="v6" data-index="6">Special photosets</li>
+                        <li class="select__option" data-select="option" data-value="v7" data-index="7">Private chat</li>
+                        <li class="select__option" data-select="option" data-value="v8" data-index="8">Communication</li>
+                        <li class="select__option" data-select="option" data-value="v9" data-index="9">Video chat</li>
+                        <li class="select__section">EDUCATION</li>
+                        <li class="select__option" data-select="option" data-value="v10" data-index="10">Promotion</li>
+                        <li class="select__option" data-select="option" data-value="v11" data-index="11">Photography</li>
+                        <li class="select__option" data-select="option" data-value="v12" data-index="12">SMM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="form-one__label-out">Title</div>
     <div class="add-ad-form__sm">
-        <div class="form-one__line form-one__line_xs">
-            <input id="b2n3" type="text" class="form-one__input" value="">
+        <div class="form-one__line">
+            <input id="b2n3" type="text" class="form-one__input form-one__input_set form-one__input_success" value="Private 18+ videochat">
             <label for="b2n3" class="form-one__label">ad title</label>
         </div>
     </div>
@@ -131,6 +229,27 @@
 
 <div class="add-ad-form form-one form-one_xs">
     <div class="add-ad-form__title">PRICE</div>
+    <p>The customer will see this price on the ad tile.</p>
+    <div class="add-ad-form__line form-one__line">
+        <div class="add-ad-form__xs">
+            <input type="text" class="add-ad-form__currency-input form-one__input" value="" placeholder="00.00">
+            <div class="add-ad-form__currency">$</div>
+        </div>
+        <div class="add-ad-form__xxs">
+            <div class="select">
+                <button type="button" class="select__toggle" name="time" value="" data-select="toggle">
+                    <span class="select__clear"></span>
+                </button>
+                <div class="select__dropdown">
+                    <ul class="select__options">
+                        <li class="select__option" data-select="option" data-value="v1" data-index="0">For a service</li>
+                        <li class="select__option" data-select="option" data-value="v2" data-index="1">Per hour</li>
+                        <li class="select__option" data-select="option" data-value="v3" data-index="2">Per day</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="add-ad-form form-one form-one_xs">
@@ -189,20 +308,20 @@
     <div class="add-ad-form__title">CONTACTS</div>
     <div class="form-one__label-out">Phone number</div>
     <div class="add-ad-form__sm">
-        <div class="form-one__line form-one__line_xs">
+        <div class="form-one__line">
             <input id="b5n1" type="text" class="form-one__input" value="">
         </div>
     </div>
     <div class="form-one__label-out">E-mail</div>
     <div class="add-ad-form__sm">
-        <div class="form-one__line form-one__line_xs">
+        <div class="form-one__line">
             <input id="b5n2" type="text" class="form-one__input" value="">
             <label for="b5n2" class="form-one__label">helloworld@someonemail.com</label>
         </div>
     </div>
     <div class="form-one__label-out">Personal website</div>
     <div class="add-ad-form__sm">
-        <div class="form-one__line form-one__line_xs">
+        <div class="form-one__line">
             <input id="b5n3" type="text" class="form-one__input" value="">
             <label for="b5n3" class="form-one__label">www.mywebsite.com</label>
         </div>
@@ -215,6 +334,19 @@
         Сommunication method
     </div>
     <div class="add-ad-form__xs">
+        <div class="form-one__line">
+            <div class="select">
+                <button type="button" class="select__toggle" name="method" value="" data-select="toggle">
+                    <span class="select__clear"></span>
+                </button>
+                <div class="select__dropdown">
+                    <ul class="select__options">
+                        <li class="select__option" data-select="option" data-value="v1" data-index="0">First</li>
+                        <li class="select__option" data-select="option" data-value="v2" data-index="1">Second</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

@@ -1,0 +1,107 @@
+.select {
+    position: relative;
+    width: 100%;
+    border: 1px solid var(--black);
+    border-radius: 6px;
+    height: 40px;
+    transition: border-color .5s;
+
+    &_show {
+        border-radius: 5px 5px 0 0;
+    }
+    &__toggle {
+        background: var(--transparent);
+        border: none;
+        padding: 0 12px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        outline: none;
+        box-shadow: none;
+        font-size: 12px;
+        position: relative;
+
+        &:after {
+            content: "";
+            position: absolute;
+            right: 12px;
+            top: 15px;
+            border: 5px solid transparent;
+            border-top: 7px solid var(--gray4);
+            transition: .5s;
+        }
+    }
+    &__clear {
+        height: 1px;
+        width: 30px;
+        background-color: var(--gray4);
+        transition: .5s;
+    }
+    &__dropdown {
+        position: absolute;
+        border: 1px solid var(--input-hover);
+        border-top: none;
+        background-color: var(--white);
+        border-radius: 0 0 5px 5px;
+        left: -1px;
+        right: -1px;
+        bottom: 1px;
+        transform: translate(0, 100%);
+        display: none;
+        padding: 0 0 10px;
+        z-index: 2;
+    }
+    &__options {
+        list-style: none;
+    }
+    &__section {
+        padding: 4px 12px;
+        font-weight: 400;
+        font-size: 10px;
+        color: var(--gray4);
+        text-transform: uppercase;
+        cursor: default;
+    }
+    &__option {
+        padding: 4px 12px;
+        font-weight: 500;
+        font-size: 12px;
+        cursor: pointer;
+        transition: .5s;
+
+        &:hover {
+            color: var(--input-hover);
+        }
+    }
+
+    &_show &__dropdown {
+        display: block;
+    }
+
+    &:hover,
+    &_show {
+        border-color: var(--input-hover);
+    }
+    &:hover &__clear,
+    &_show &__clear {
+        background-color: var(--input-hover);
+    }
+    &:hover &__toggle:after,
+    &_show &__toggle:after {
+        border-top-color: var(--input-hover);
+    }
+
+    &_selected,
+    &_selected:hover {
+        border-color: var(--input-success);
+    }
+    &_selected &__toggle:after,
+    &_selected:hover &__toggle:after {
+        border-top-color: var(--input-success);
+    }
+    &_selected &__dropdown,
+    &_selected:hover &__dropdown, {
+        border-color: var(--input-success);
+    }
+}
